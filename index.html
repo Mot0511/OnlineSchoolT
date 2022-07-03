@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>OnloneSchoolT</title>
+    <!-- Только CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Пакет JavaScript с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <style media="screen">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+      *{
+        font-family: 'Montserrat';
+        font-weight: 700;
+      }
+      .header{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+      }
+      .label{
+        font-size: 24px;
+        font-weight: 700;
+      }
+      body{
+        width: 80vw;
+        margin-left: 10vw;
+      }
+      .menu a{
+        text-decoration: none;
+        color: #737373;
+        font-size: 14px;
+        margin-left: 21px;
+        font-weight: 700;
+        transition: color 0.3s;
+      }
+      .menu a:hover{
+        color: #2e2e2e;
+      }
+      .menu{
+        flex-basis: 60%;
+      }
+      .signInBtn{
+        background-color: #96BB7C;
+        width: 137px;
+        height: 52px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        margin-left: 45px;
+      }
+      .signInBtn:hover{
+        background-color: #5d734e;
+      }
+      .logInBtn{
+        border: 0;
+        color: #96BB7C;
+        background-color: white;
+        transition: color 0.3s;
+      }
+      .logInBtn:hover{
+        color: #5d734e;
+      }
+      .label, .menu{
+        margin-top: 10px;
+      }
+      .block1{
+        display: flex;
+
+      }
+      .block1 div{
+        width: 50%;
+        height: 608px;
+      }
+      .block1 p:nth-of-type(1){
+        color: #96BB7C;
+        margin-top: 122px;
+      }
+      .block1 p:nth-of-type(2){
+        font-size: 20px;
+        margin-top: 35px;
+        color: #737373;
+
+      }
+      .block1 h1{
+        color: #252B42;
+        font-size: 58px;
+        margin-top: 35px;
+        font-weight: 700;
+      }
+      .getQuoteNow{
+        width: 193px;
+        height: 52px;
+        background: #96BB7C;
+        border-radius: 5px;
+        border: 0;
+        font-size: 14px;
+        color: #FFFFFF;
+        transition: background-color 0.3s;
+      }
+      .getQuoteNow:hover{
+        background-color: #5d734e;
+      }
+      .learnMore{
+        margin-left: 10px;
+        width: 193px;
+        height: 52px;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #96BB7C;
+        font-size: 14px;
+        color: #96BB7C;
+        transition: background-color 0.3s;
+        transition: color 0.3s;
+      }
+      .learnMore:hover{
+        color: white;
+        background-color: #96BB7C;
+      }
+      .block1 div div{
+        display: flex;
+        height: 52px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <h1 class="label">Your school</h1>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">Product</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="logBtns">
+        <a href="#"><button type="button" class="logInBtn" name="button">Login</button></a>
+        <a href="#"><button type="button" class="signInBtn" name="button">JOIN US</button></a>
+        </div>
+    </div>
+    <div class="block1">
+      <div class="">
+        <p>Join Us</p>
+        <h1>25K+ STUDENTS<br> TRUST US</h1>
+        <p>Every day brings with it a fresh set of learning possibilities.</p>
+        <div class="">
+          <a href="#"><button type="button" class="getQuoteNow" name="button">Get Quote Now</button></a>
+          <a href="#"><button type="button" class="learnMore" name="button">Learn More</button></a>
+        </div>
+      </div>
+      <div class="">
+<img src="img/block1.png" alt="">
+      </div>
+    </div>
+  </body>
+</html>
